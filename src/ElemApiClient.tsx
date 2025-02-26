@@ -1,5 +1,7 @@
 const BASE_API_URL = import.meta.env.VITE_BASE_API_URL;
-
+//
+console.log('****BASE_API_URL = ' + BASE_API_URL);
+//
 export default class ElemApiClient {
   constructor() {
     this.base_url =  BASE_API_URL + '/api';
